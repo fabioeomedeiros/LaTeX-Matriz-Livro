@@ -1,0 +1,34 @@
+% -------
+% Fonte LaTeX - @author: Medeiros, F. E. O.
+% -------
+
+\documentclass[12pt, oneside]{book} % CONFIGURA DOCUMENTO TIPO LIVRO
+\usepackage{pacotes} % Carrega pacotes essenciais (.sty)
+\usepackage[Conny]{fncychap} % Estilos variados: (ver opções) -> Conny Sonny Lenny Glenn Renje Bjarne Bjornstrup
+\input{pageconf} % Carrega configuração das páginas (.tex)
+\input{comandos} % Carrega comandos criados pelo usuário (.tex)
+
+\makeindex
+
+\begin{document}
+	\frontmatter
+		\pagestyle{fancy}
+		\tableofcontents
+		\listoffigures
+		\listoftables
+	\mainmatter
+		% Carrega os capítulos
+		\input{../Capitulos/introducao}
+		% \input{../Capitulos/experximental}
+		\input{../Capitulos/resultados}
+		\input{../Capitulos/conclusao}
+	\appendix
+		% Carraga os apêndices
+		\input{../Capitulos/apendice_A}
+		\input{../Capitulos/apendice_B}
+		\input{../Capitulos/apendice_C}
+	\backmatter
+		\bibliographystyle{unsrt} % Formatação da bibliografia (ver opções) -> unsrt plain
+        \bibliography{bibliografia}
+		\printindex
+\end{document}

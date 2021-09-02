@@ -1,0 +1,88 @@
+
+% | LaTeX Fonte - @autor: Medeiros, F. E. O - 2018.07.13 
+
+% | COMANDOS CRIADOS
+
+\newcommand{\eq}[1]{(\ref{#1})} % referenciador de equações no modo texto
+\newcommand{\fig}[1]{{\ref{#1}}} % referenciador de equações no modo texto
+\newcommand{\tab}[1]{{\ref{#1}}} % referenciador de equações no modo texto
+% ---------------------
+\newcommand{\indexar}[1]{{#1}\index{#1}} % indexação simplificada para Glossário
+\newcommand{\fn}[1]{$^($\footnote{$^{)}$ #1.}$^)$} % nota de roda pé estilizada
+\newcommand{\blankpage}{\ \newpage} % cria página em branco
+% ---------------------
+\newcommand{\para}{\indent}	% tabulação em modo texto(parágrafo)
+\newcommand{\rec}{\noindent} % recuo em modo texto(recuo de parágrafo)
+\newcommand{\asp}[1]{``#1''{}} % abre/fecha aspas
+% ---------------------
+\newcommand{\bhat}[1]{\boldsymbol{\hat{\mathrm{#1}}}} % vetor unitário ("chapéu")
+\newcommand{\bvec}[1]{\boldsymbol{\mathrm{#1}}}	% vetor estilo "negrito"
+\newcommand{\bmat}[1]{\boldsymbol{\mathbb{#1}}}	% matriz estilizada (aceita somente UPPERCASE)
+\newcommand{\ten}[1]{\boldsymbol{[\mathrm{#1}]}} % tensor estilo "colchetes"
+\newcommand{\bra}[1]{\langle #1 |} % bra
+\newcommand{\ket}[1]{| #1 \rangle} % ket
+\newcommand{\bk}[2]{\langle #1 | #2 \rangle} % bra-ket completo
+\newcommand{\isum}[2]{\sum^{#1}_{#2}} % somatório simplificando índice inferior e superior 
+% ---------------------
+\newcommand{\seta}{\qquad\Rightarrow\qquad}	% seta para direita em modo matemático
+\newcommand{\Seta}{\qquad\Rightarrow\qquad}	% seta bruta para direita em modo matemático
+% --------------------- 
+\newcommand{\uni}[1]{\mathrm{#1}} % unidade no ambiente matemático ("colado")
+\newcommand{\suni}[1]{\ \mathrm{#1}} % unidade no ambiente matemático ("separado")
+\newcommand{\puni}[1]{\atp{\mathrm{#1}}} % unidade no ambiente matemático ("entre parênteses")
+\newcommand{\graus}{^{\circ}} % unidade de grau (º)
+% ---------------------
+\newcommand{\Grad}[1]{\boldsymbol{\nabla} #1} % operador Gradiente
+\newcommand{\Div}[1]{\boldsymbol{\nabla} \cdot #1} % operador Divergente
+\newcommand{\Rot}[1]{\boldsymbol{\nabla} \times #1} % operador Rotacional
+\newcommand{\Lap}[1]{\nabla^2 #1} % operador Laplaciano
+% ---------------------
+\newcommand{\colog}{\mathrm{colog}}	% cologarítimo
+\newcommand{\res}{\mathrm{res}}	% resíduo
+\newcommand{\cte}{\mathrm{cte}}	% constante
+% ---------------------
+\newcommand{\arccsc}{\mathrm{\:arccsc\:}} % função  arcocossecante
+\newcommand{\arcsec}{\mathrm{\:arcsec\:}} % função  arcocosecante
+\newcommand{\arccot}{\mathrm{\:arccot\:}} % função  arcotangente
+\newcommand{\csch}{\mathrm{\:csch\:}} % função  seno hipebólico
+\newcommand{\sech}{\mathrm{\:sech\:}} % função  cosseno hipebólico
+\newcommand{\arccosh}{\mathrm{\:arccosh\:}}	% função  arcocosseno hipebólico
+\newcommand{\arcsinh}{\mathrm{\:arcsinh\:}}	% função  arcoseno hipebólico
+\newcommand{\arctanh}{\mathrm{\:arctanh\:}}	% função  arcotangente hipebólico
+\newcommand{\arccsch}{\mathrm{\:arccsch\:}}	% função  arcocossecante hipebólico
+\newcommand{\arcsech}{\mathrm{\:arcsech\:}}	% função  arcosecante hipebólico
+\newcommand{\arccoth}{\mathrm{\:arccoth\:}}	% função  arcocotangente hipebólico
+% ---------------------
+\newcommand{\atp}[1]{\left( #1 \right)}	% parenteses tamanho automático
+\newcommand{\atc}[1]{\left[ #1 \right]}	% colchetes tamanho automático
+\newcommand{\ats}[1]{\left\{ #1 \right\}} % chaves tamanho automático
+\newcommand{\ath}[1]{\left| #1 \right|}	% módulo tamanho automático
+\newcommand{\atx}[1]{\left\langle #1 \right\rangle}	% média temporal tamanho automático
+\newcommand{\medt}[1]{\langle #1 \rangle} % média temporal in-line
+% ---------------------
+\renewcommand{\d}{\mathrm{d}} % operador diferencial
+\newcommand{\drac}[2]{\frac{\mathrm{d} {#1}}{\mathrm{d} {#2}}} % fração diferencial
+\newcommand{\ddrac}[2]{\frac{\mathrm{d}^{2} {#1}}{\mathrm{d} {#2}^{2}}}	% fração diferencial de segunda ordem
+\newcommand{\prac}[2]{\frac{\partial {#1}}{\partial {#2}}} % fração diferencial parcial
+\newcommand{\pprac}[2]{\frac{\partial^{2} {#1}}{\partial {#2}^{2}}}	% fração diferencial parcial de segunda ordem
+% ---------------------
+\newcommand{\fem}{\mathcal{E}} % força eletro-motriz
+\newcommand{\lag}{\mathcal{L}} % lagrangeano e transformada de laplace
+\newcommand{\ham}{\mathcal{H}} % hamiltoniano
+\newcommand{\I}{\mathcal{I}} % símbolo para intensidade luminosa
+\newcommand{\R}{\mathcal{R}}
+\newcommand{\T}{\mathcal{T}}
+\newcommand{\e}{\epsilon} % atalho para letra grega epsilon
+\newcommand{\ve}{\varepsilon} % atalho para letra grega epsilon estilizada
+\newcommand{\bnu}{\bar{\nu}} % símbolo para refletividade
+\newcommand{\f}{\varphi} % função f qualquer
+\newcommand{\g}{\psi} % função g qualquer
+\newcommand{\transp}{\mathrm{t}} % função transposta
+\newcommand{\dpe}{\mathrm{s}}
+\newcommand{\dgt}[1]{\fbox{\texttt{#1}}}
+%-----------------------------------------------------------------------------------------------------------------------------------------------------
+\newcommand{\tline}{\hline \hline \hline \hline}
+
+\newcommand{\vetl}{{\rule{1.5mm}{.3mm}}}
+\newcommand{\vetc}{{\:\rule{.3mm}{1.5mm}}}
+\newcommand{\angstrom}{\mbox{\normalfont\AA}}
