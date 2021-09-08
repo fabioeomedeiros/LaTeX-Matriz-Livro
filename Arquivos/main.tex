@@ -1,18 +1,71 @@
-% -------
+% -----------------------------------------
 % Fonte LaTeX - @author: Medeiros, F. E. O.
-% -------
+% -----------------------------------------
 
-\documentclass[12pt, oneside]{book} % CONFIGURA DOCUMENTO TIPO LIVRO
-\usepackage{pacotes} % Carrega pacotes essenciais (.sty)
-\usepackage[Conny]{fncychap} % Estilos variados: (ver opções) -> Conny Sonny Lenny Glenn Renje Bjarne Bjornstrup
-\input{pageconf} % Carrega configuração das páginas (.tex)
-\input{comandos} % Carrega comandos criados pelo usuário (.tex)
+% ALTERE ESSE DOCUMENTO DE ACORDO COM AS INSTRUÇÕES EM CADA LINHA
+
+
+\documentclass[12pt, oneside]{book} % Configura formatação do documento: 'TIPO LIVRO'
+\usepackage{pacotes} % Carrega pacotes essenciais (NÂO MODIFICAR O ARQUIVO 'pacotes.sty')
+\usepackage[Conny]{fncychap} % Configura estilo de formatação do layout: (ver opções) -> Conny, Sonny, Lenny, Glenn, Renje, Bjarne, Bjornstrup etc.
+\input{pageconf} % Carrega configuração das páginas (NÂO MODIFICAR O ARQUIVO 'pageconf.tex')
+\input{comandos} % Carrega comandos criados pelo usuário (OPICIONAL 'comandos.tex')
+
+
+% CONFIGURAÇÃO DO MANUSCRITO
+\newcommand{\brasao}{starfleet_command} %OBS.: Nome da figura (NA PASTA 'Imagens' e SEM A EXTENSÃO)
+\newcommand{\universidade}{Universidade da Frota Estelar} %Ex.: Universidade Federal do Ceará
+\newcommand{\centro}{Centro de Exploração Espacial} %Ex.: Centro de Ciências
+\newcommand{\departamento}{Departamento de Defesa da Terra} %Ex.: Departamento de Física
+\newcommand{\programa}{Programa de Pesquisa e Diplomacia} %Ex.: Programa de Pós-Graduação em Física
+\newcommand{\titulo}{Aplicação da técnica telepática conhecida como Fusão Mental na transferência de energia Katra} %OBS.: Não pode passar de 3 linhas
+\newcommand{\autor}{Sachn Tegai Spock} %Ex. James Tiberius Kirk
+\newcommand{\abrvautor}{S. T. Spock} %Ex.: J. T. Kirk
+\newcommand{\local}{São Francisco | Califórnia} %Ex.: Fortaleza - CE
+\newcommand{\manuscrito}{Tese de Doutorado} %Ex.: Tese de Doutorado
+\newcommand{\graduacao}{Oficial de Ciências} %Ex.: Bacharel, Mestre, Doutor
+\newcommand{\curso}{Astrofísica} %Ex.: Física, Engenharia Elétrica, Medicina 
+\newcommand{\orientador}{Embaixador Sarek} %Nome do orientador
+\newcommand{\datadeaprovacao}{8 de setembro de 1966} %Ex.: 8 de setembro de 1966
+
+%BANCA EXAMINADORA
+\newcommand{\presidente}{Embaixador Sarek} %Presidente da banca
+\newcommand{\instituicaoI}{Central de Diplomacia da Frota Estelar} %Instituição do presidente da banca
+
+\newcommand{\internoI}{Capitão Christopher Pike} %Membro Interno
+\newcommand{\instituicaoII}{Comando Espacial da Frota Estelar} %Instituição do membro interno
+
+\newcommand{\internoII}{Almirante Beckett Nechayev} %Membro Externo
+\newcommand{\instituicaoIII}{Comando de Esquadra da Frota Estelar} %Instituição do membro externo
+
+\newcommand{\externo}{[Integrante da banca \#4]}
+\newcommand{\instituicaoIV}{[Instituição do integrante \#4]}
+
+%CITAÇÃO, AGRADECIMENTOS, RESUMO e ABSTRACT
+\newcommand{\citacao}{
+	Vida longa e próspera
+}
+\newcommand{\autorcitacao}{Saudação Vulcana}
+
+\newcommand{\agradecimentos}{
+	Agradecimentos...
+}
+\newcommand{\resumo}{
+	Resumo...
+}
+\newcommand{\palavraschave}{palavra1, palavra2, palavra3, palavra4, palavra5}
+
+\newcommand{\abstract}{
+	Abstract...
+}
+\newcommand{\keywords}{keyword1, keyword2, keyword3, keyword4, keyword5}
 
 \makeindex
 
 \begin{document}
 	\frontmatter
 		\pagestyle{fancy}
+		\input{prelude}
 		\tableofcontents
 		\listoffigures
 		\listoftables
@@ -28,7 +81,7 @@
 		\input{../Capitulos/apendice_B}
 		\input{../Capitulos/apendice_C}
 	\backmatter
-		\bibliographystyle{unsrt} % Formatação da bibliografia (ver opções) -> unsrt plain
+		\bibliographystyle{unsrt} % Formatação da bibliografia (ver opções) -> unsrt, plain
         \bibliography{bibliografia}
 		\printindex
 \end{document}

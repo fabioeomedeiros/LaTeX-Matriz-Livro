@@ -1,0 +1,61 @@
+% -------
+% Fonte LaTeX - @author: Medeiros, F. E. O.
+% -------
+\documentclass[12pt, oneside]{book}
+
+\usepackage{PackageMedeiros}
+\usepackage[Conny]{fncychap} %Sonny Conny Lenny Glenn Renje Bjarne Bjornstrup
+
+\input{Pageconf}
+
+\newcommand{\titulo}{{\LARGE \textsc{Transição Parcialmente Ferroelástica na Perovskita dupla $\uni{Cs_2 Ag Bi Br_6}$ Investigada por Espectroscopia Raman}}}
+\newcommand{\autor}{Fabio Eduardo de Oliveira Medeiros}
+\newcommand{\orientador}{Dr. Alejandro P. Ayala}
+\newcommand{\instituicaoi}{Universidade Federal do Ceará (UFC)}
+\newcommand{\interno}{William Paschoal}
+\newcommand{\instituicaoii}{Universidade Federal do Ceará (UFC)}
+\newcommand{\internoii}{Alexandre Paschoal}
+\newcommand{\instituicaoiii}{Universidade Federal do Ceará (UFC)}
+\newcommand{\externo}{Wellington Castro Ferreira}
+\newcommand{\instituicaoiiii}{Universidade Federal do Ceará (UFC)}
+\newcommand{\aprovacao}{04 de maio de 2021}
+
+\newcommand{\citacao}{
+	A paz é uma mentira, estará sempre em guerra com sua paixão, através da paixão se ganha força, através da força se conquista a vitória, através da vitória se obtém poder, através do poder suas correntes se rompem e a paz o guiará em liberdade... mas a paz é uma mentira.
+}\newcommand{\autorcitacao}{Código Sith}
+
+\newcommand{\agradecimentos}{
+	Agradecimentos
+}
+
+\newcommand{\resumo}{
+	As perovskitas não toxicas livres de chumbo, tem atraído a atenção da comunidade cientifica nos últimos anos ao redor do mundo. Suas propriedades físicas optoeletrônicas tem sido amplamente utilizadas na produção de diversos dispositivos tecnológicos. Uma das mais exploradas é a propriedade fotovoltáica, capaz de transformar a energia solar em elergia elétrica. Tal propriedade está na vanguarda dos estudos e sendo dia após dia aprimoradas afim de se alcançar a capacidade de produzir energia limpa em larga escala e superar as atuais líderes do mercado que são as, placas fotovoltaicas de silício. Nesse cenário, um dos materiais mais promissores é a perovskita dupla $\uni{Cs_2 Ag Bi Br_6}$, devido a sua facilidade de produção, eficiencia de conversão de energia, baixo custo e estabilidade a exposição a atmosfera. Entretanto, além de toda a sua usabilidade na industria, ela ainda pode apresentar uma propriedade física de base, que é a transição de fase parcialmente ferroelástica. O presente trabalho mostra um fônon anômalo exibindo comportamente de renormalização do modo soft após uma temperatura crítica de aproximadamente 122 K, onde também ocorre uma transição de fase estrutural. Tal comportamento já foi usado para caracterizar transições com essa natureza. O objetivo desse trabalho é tentar determinar a existência de uma transição ferroelástica nesse composto.
+}\newcommand{\palavraschave}{$\uni{Cs_2 Ag Bi Br_6}$, Perovskita dupla, perovskita livre de chumbo, transição parcialmnete ferroelástica, Células fotovoltaicas}
+
+\newcommand{\abstract}{
+	Lead-free, non-toxic perovskites have attracted the attention of the scientific community in recent years around the world. Its physical optoelectronic properties have been used in the production of several technological devices. One of the most explored is a photovoltaic property, capable of transforming solar energy into electrical energy. This property is at the forefront of studies and is being improved day after day in order to achieve the capacity to produce clean energy on a large scale and surpass the current market leaders, which are silicon photovoltaic plates. In this scenario, one of the most promising materials is a double perovskite $\uni{Cs_2 Ag Bi Br_6}$, due to its ease of production, energy conversion efficiency, low cost and stability to exposure to the atmosphere. However, in addition to all its usability in the industry, it can still present a basic physical property, which is a partially ferroelastic phase transition. The present work shows an anomalous phonon exhibiting a soft mode renormalization behavior after a critical temperature of approximately 122 K, where a structural phase transition also occurs. Such behavior has already been used to characterize transitions of this nature. The objective of this work is to try to determine the existence of a ferroelastic transition in this compound.
+}\newcommand{\keywords}{$\uni{Cs_2 Ag Bi Br_6}$, Double perovskite, lead-free perovskite, partially ferroelastic phase transition, photovoltaic cells}
+
+\makeindex
+
+\begin{document}
+	\frontmatter
+		\pagestyle{fancy}
+		\input{Prelude}
+		\tableofcontents
+		\listoffigures
+		\listoftables
+		% \input{../Capitulos/Symbols}
+	\mainmatter
+		\input{../Capitulos/K1_introducao}
+		\input{../Capitulos/K2_experimental}
+		\input{../Capitulos/K3_resultados}
+		% \input{../Capitulos/K4_rubidio}
+		\input{../Capitulos/K4_conclusao}
+	\appendix
+		\input{../Capitulos/Ap1}
+	\backmatter
+		\bibliographystyle{unsrt} %plain %unsrt
+        \bibliography{kdoc}
+		\printindex
+\end{document}
