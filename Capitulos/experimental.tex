@@ -1,241 +1,243 @@
 \chapter{Experimental}
 
-\begin{equation}
-	\uni{\Gamma_{Raman}^{300 K} = A_{1g} \oplus E_{g} \oplus 2T_{2g}}
-	\label{gamma_raman_300}
-\end{equation}
+\section{Equações}
 
-\begin{equation}
-	\uni{\Gamma_{IR}^{300 K} = 4\uni{T_{1u}}}
-	\label{gamma_ir_300}
-\end{equation}
-
-\begin{table}[ht] \centering
-	\begin{tabular}{cccl} \hline \hline
-	    \multicolumn{4}{l}{Cúbica - $Fm\bar{3}m$ - $O^5_h$ - $\#225$}
- 	    \\ \hline
-		Íon & Sítio & Simetria & Contribuição \\ \hline
-		Cs & 8c & $T_d$ & $\uni{T_{1u} \oplus T_{2g}}$\\
-		Ag & 4a & $O_h$ & $\uni{T_{1u}}$ \\
-		Bi & 4b & $O_h$ & $\uni{T_{1u}}$ \\
-		Br & 24e & $C_{4v}$ & $\uni{A_{1g} \oplus E_{g} \oplus T_{1g} \oplus T_{2g} \oplus 2T_{1u} \oplus T_{2u}}$ \\ \hline
-		&  &  & $
-		\uni{\Gamma_{total} = A_{1g} \oplus E_{g} \oplus T_{1g} \oplus 2T_{2g} \oplus 5T_{1u} \oplus T_{2u}} $ \\
-		&  &  & $\uni{\Gamma_{acoustic} =\uni{T_{1u}}}$ \\
-		&  &  & $\uni{\Gamma_{IR} = 4\uni{T_{1u}}}$ \\
- 		&  &  & $\uni{\Gamma_{Raman} = A_{1g} \oplus E_{g} \oplus 2T_{2g}}$ \\
- 		&  &  & $\uni{\Gamma_{silent} = T_{1g} \oplus T_{2u}}$ \\ 
- 		\hline \hline
-	\end{tabular}
-	\caption{Teoria de grupo da peroviskita dupla $\uni{Cs_2 Ag Bi Br_6}$ na sua fase cúbica. $\uni{a = 11,264\AA}$ em $300 \uni{K}$.}
-	\label{tab_cubic}
-\end{table}
+$y(x) = ax^2 + bx + c$
 
 $$
-	\begin{array}{l}
-		\mbox{Transformação dos} \\
-		\mbox{modos Raman}
-	\end{array}
-	\left\{
-		\begin{array}{lll}
-			\uni{A_{1g}} & \rightarrow & \uni{A_{g}} \\
-			\uni{E_{g}} & \rightarrow & \uni{A_{g}} \oplus \uni{B_{g}} \\
-			\uni{2T_{2g}} & \rightarrow & 2\atp{\uni{B_{g}} \oplus \uni{E_{g}}} \\
-			\uni{T_{1g}} & \rightarrow & \uni{A_{g}} \oplus \uni{E_{g}} \\ \hline 
-			& & \uni{3A_{g} \oplus 3B_{g} \oplus 3E_{g}}
-		\end{array}
-	\right.
-	\label{raman_modes_transform}
+	x = \frac{-b \pm \sqrt{b^2 -4ac}}{2a}
 $$
 
 \begin{equation}
-	\uni{\Gamma_{Raman}^{30 K} = 3A_{g} \oplus 3B_{g} \oplus 3E_{g}}
-	\label{gamma_raman_30}
+	x = \frac{-b \pm \sqrt{b^2 -4ac}}{2a}
 \end{equation}
 
-$$
-	\begin{array}{l}
-		\mbox{Transformação dos} \\
-		\mbox{modos infravermelhos}
-	\end{array}
-	\left\{
-		\begin{array}{lll}
-			\uni{4T_{1u}} & \rightarrow & 4\atp{\uni{A_{u}} \oplus \uni{E_{u}}} \\
-			\uni{T_{2u}} & \rightarrow & \uni{B_{u}} \oplus \uni{E_{u}} \\ \hline 
-			& & \uni{4A_{u} \oplus 5E_{u} \oplus \underbrace{\uni{B_{u}}}_{silent}}
-		\end{array}
-	\right.
-	\label{IR_modes_transform}
-$$
+% \begin{table}[ht] \centering
+% 	\begin{tabular}{cccl} \hline \hline
+% 	    \multicolumn{4}{l}{Cúbica - $Fm\bar{3}m$ - $O^5_h$ - $\#225$}
+%  	    \\ \hline
+% 		Íon & Sítio & Simetria & Contribuição \\ \hline
+% 		Cs & 8c & $T_d$ & $\uni{T_{1u} \oplus T_{2g}}$\\
+% 		Ag & 4a & $O_h$ & $\uni{T_{1u}}$ \\
+% 		Bi & 4b & $O_h$ & $\uni{T_{1u}}$ \\
+% 		Br & 24e & $C_{4v}$ & $\uni{A_{1g} \oplus E_{g} \oplus T_{1g} \oplus T_{2g} \oplus 2T_{1u} \oplus T_{2u}}$ \\ \hline
+% 		&  &  & $
+% 		\uni{\Gamma_{total} = A_{1g} \oplus E_{g} \oplus T_{1g} \oplus 2T_{2g} \oplus 5T_{1u} \oplus T_{2u}} $ \\
+% 		&  &  & $\uni{\Gamma_{acoustic} =\uni{T_{1u}}}$ \\
+% 		&  &  & $\uni{\Gamma_{IR} = 4\uni{T_{1u}}}$ \\
+%  		&  &  & $\uni{\Gamma_{Raman} = A_{1g} \oplus E_{g} \oplus 2T_{2g}}$ \\
+%  		&  &  & $\uni{\Gamma_{silent} = T_{1g} \oplus T_{2u}}$ \\ 
+%  		\hline \hline
+% 	\end{tabular}
+% 	\caption{Teoria de grupo da peroviskita dupla $\uni{Cs_2 Ag Bi Br_6}$ na sua fase cúbica. $\uni{a = 11,264\AA}$ em $300 \uni{K}$.}
+% 	\label{tab_cubic}
+% \end{table}
 
-\begin{equation}
-	\uni{\Gamma_{IR}^{30 K} = 4A_{u} \oplus 5E_{u}}
-	\label{gamma_ir_30}
-\end{equation}
+% $$
+% 	\begin{array}{l}
+% 		\mbox{Transformação dos} \\
+% 		\mbox{modos Raman}
+% 	\end{array}
+% 	\left\{
+% 		\begin{array}{lll}
+% 			\uni{A_{1g}} & \rightarrow & \uni{A_{g}} \\
+% 			\uni{E_{g}} & \rightarrow & \uni{A_{g}} \oplus \uni{B_{g}} \\
+% 			\uni{2T_{2g}} & \rightarrow & 2\atp{\uni{B_{g}} \oplus \uni{E_{g}}} \\
+% 			\uni{T_{1g}} & \rightarrow & \uni{A_{g}} \oplus \uni{E_{g}} \\ \hline 
+% 			& & \uni{3A_{g} \oplus 3B_{g} \oplus 3E_{g}}
+% 		\end{array}
+% 	\right.
+% 	\label{raman_modes_transform}
+% $$
+
+% \begin{equation}
+% 	\uni{\Gamma_{Raman}^{30 K} = 3A_{g} \oplus 3B_{g} \oplus 3E_{g}}
+% 	\label{gamma_raman_30}
+% \end{equation}
+
+% $$
+% 	\begin{array}{l}
+% 		\mbox{Transformação dos} \\
+% 		\mbox{modos infravermelhos}
+% 	\end{array}
+% 	\left\{
+% 		\begin{array}{lll}
+% 			\uni{4T_{1u}} & \rightarrow & 4\atp{\uni{A_{u}} \oplus \uni{E_{u}}} \\
+% 			\uni{T_{2u}} & \rightarrow & \uni{B_{u}} \oplus \uni{E_{u}} \\ \hline 
+% 			& & \uni{4A_{u} \oplus 5E_{u} \oplus \underbrace{\uni{B_{u}}}_{silent}}
+% 		\end{array}
+% 	\right.
+% 	\label{IR_modes_transform}
+% $$
+
+% \begin{equation}
+% 	\uni{\Gamma_{IR}^{30 K} = 4A_{u} \oplus 5E_{u}}
+% 	\label{gamma_ir_30}
+% \end{equation}
 
 
-\begin{table}[hb] \centering
-	\begin{tabular}{cccl} \hline \hline
-	    \multicolumn{4}{l}{Tetragonal - $I4/m$ - $C^5_{4h}$ - $\#87$}
-	    \\ \hline
-		Íon & Sítio & Simetria & Contribuição \\ \hline
-		Cs & 4d & $S_{4}$ & $\uni{A_{u} \oplus B_{g} \oplus E_{g} \oplus E_{u}}$ \\
-		Ag & 2a & $C_{4h}$ & $\uni{A_{u} \oplus E_{u}}$ \\
-		Bi & 2b & $C_{4h}$ & $\uni{A_{u} \oplus E_{u}}$ \\
-		Br1 & 8h & $C_{s}$ & $\uni{2A_{g} \oplus A_{u} \oplus 2B_{g} \oplus B_{u} \oplus E_{g} \oplus 2E_{u}}$ \\ 
-		Br2 & 4e & $C_{4}$ & $\uni{A_{g} \oplus A_{u} \oplus E_{g} \oplus E_{u}}$ \\ \hline
-		&  &  & $\uni{\Gamma_{Total} = 3A_{g} \oplus 5A_{u} \oplus 3B_{g} \oplus B_{u} \oplus 3E_{g} \oplus 6E_{u}}$ \\
-		&  &  & $\uni{\Gamma_{acoustic} = A_{u} \oplus E_{u}}$ \\
-		&  &  & $\uni{\Gamma_{IR} = 4A_{u} \oplus 5E_{u}}$ \\
-		&  &  & $\uni{\Gamma_{Raman} = 3A_{g} \oplus 3B_{g} \oplus 3E_{g}}$ \\
-		&  &  & $\uni{\Gamma_{silent} = B_{u}}$ \\ \hline \hline
-	\end{tabular}
-	\caption{Teoria de grupo da perovskita dupla $\uni{Cs_2 Ag Bi Br_6}$ na fase tetragonal. $\uni{a = 7,8794\AA}$ e $\uni{c = 11,3236\AA}$ em $30 \uni{K}$.}
-	\label{tab_tetragonal}
-\end{table}
+% \begin{table}[hb] \centering
+% 	\begin{tabular}{cccl} \hline \hline
+% 	    \multicolumn{4}{l}{Tetragonal - $I4/m$ - $C^5_{4h}$ - $\#87$}
+% 	    \\ \hline
+% 		Íon & Sítio & Simetria & Contribuição \\ \hline
+% 		Cs & 4d & $S_{4}$ & $\uni{A_{u} \oplus B_{g} \oplus E_{g} \oplus E_{u}}$ \\
+% 		Ag & 2a & $C_{4h}$ & $\uni{A_{u} \oplus E_{u}}$ \\
+% 		Bi & 2b & $C_{4h}$ & $\uni{A_{u} \oplus E_{u}}$ \\
+% 		Br1 & 8h & $C_{s}$ & $\uni{2A_{g} \oplus A_{u} \oplus 2B_{g} \oplus B_{u} \oplus E_{g} \oplus 2E_{u}}$ \\ 
+% 		Br2 & 4e & $C_{4}$ & $\uni{A_{g} \oplus A_{u} \oplus E_{g} \oplus E_{u}}$ \\ \hline
+% 		&  &  & $\uni{\Gamma_{Total} = 3A_{g} \oplus 5A_{u} \oplus 3B_{g} \oplus B_{u} \oplus 3E_{g} \oplus 6E_{u}}$ \\
+% 		&  &  & $\uni{\Gamma_{acoustic} = A_{u} \oplus E_{u}}$ \\
+% 		&  &  & $\uni{\Gamma_{IR} = 4A_{u} \oplus 5E_{u}}$ \\
+% 		&  &  & $\uni{\Gamma_{Raman} = 3A_{g} \oplus 3B_{g} \oplus 3E_{g}}$ \\
+% 		&  &  & $\uni{\Gamma_{silent} = B_{u}}$ \\ \hline \hline
+% 	\end{tabular}
+% 	\caption{Teoria de grupo da perovskita dupla $\uni{Cs_2 Ag Bi Br_6}$ na fase tetragonal. $\uni{a = 7,8794\AA}$ e $\uni{c = 11,3236\AA}$ em $30 \uni{K}$.}
+% 	\label{tab_tetragonal}
+% \end{table}
  
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=8cm]{../Imagens/PDF_Cs2AgBiBr6_raman_temperature}
-    \caption{Espectros Raman em função da temperatura para a perovskita dupla $\uni{Cs_2 Ag Bi Br_6}$. Fase tetragonal $I4/m$, ($C_{4h}^5$, \#87) em preto, espectro na temperatura de transição de $122 \suni{K}$ destacado em vermelho e fase cúbica $Fm \bar{3}m$, ($C_{h}^5$, \#225) em azul.}
-    \label{raman_temperature}
-\end{figure}
+% \begin{figure}[h!]
+%     \centering
+%     \includegraphics[width=8cm]{../Imagens/PDF_Cs2AgBiBr6_raman_temperature}
+%     \caption{Espectros Raman em função da temperatura para a perovskita dupla $\uni{Cs_2 Ag Bi Br_6}$. Fase tetragonal $I4/m$, ($C_{4h}^5$, \#87) em preto, espectro na temperatura de transição de $122 \suni{K}$ destacado em vermelho e fase cúbica $Fm \bar{3}m$, ($C_{h}^5$, \#225) em azul.}
+%     \label{raman_temperature}
+% \end{figure}
 
-\begin{figure}[h!]
-    \centering
-	\includegraphics[width=7.4cm]{../Imagens/PDF_Cs2AgBiBr6_peak_center}
-	\includegraphics[width=7cm]{../Imagens/peak_fwhm}
-    \caption{Posição dos centros dos picos (azul) e largura-a-meia-altura (vermelho) dos modos Raman em função da temperatura. Evidenciando uma forte mudança de comportamento abaixo da temperatura crítica ($T_c =$ 122 K), mas principalmente no modo T$_{2g}$ em torno de 73 $\uni{cm^{-1}}$.}
-    \label{peak_center}
-\end{figure}
+% \begin{figure}[h!]
+%     \centering
+% 	\includegraphics[width=7.4cm]{../Imagens/PDF_Cs2AgBiBr6_peak_center}
+% 	\includegraphics[width=7cm]{../Imagens/peak_fwhm}
+%     \caption{Posição dos centros dos picos (azul) e largura-a-meia-altura (vermelho) dos modos Raman em função da temperatura. Evidenciando uma forte mudança de comportamento abaixo da temperatura crítica ($T_c =$ 122 K), mas principalmente no modo T$_{2g}$ em torno de 73 $\uni{cm^{-1}}$.}
+%     \label{peak_center}
+% \end{figure}
 
-\begin{figure}[ht] \centering
-	\includegraphics[width=49mm]{../Imagens/PNG_300K}
-	\includegraphics[width=49mm]{../Imagens/PNG_125K}
-	\includegraphics[width=49mm]{../Imagens/PNG_120K} \\
-	\includegraphics[width=49mm]{../Imagens/PNG_113K}
-	\includegraphics[width=49mm]{../Imagens/PNG_110K}
-	\includegraphics[width=49mm]{../Imagens/PNG_103K}
-	\caption{Termomicroscopia do $\uni{Cs_2 Ag Bi Br_6}$. Mudança de birefringência é observada em temperaturas abaixo de 125 K.}
-	\label{termomicroscopia}
-\end{figure}
+% \begin{figure}[ht] \centering
+% 	\includegraphics[width=49mm]{../Imagens/PNG_300K}
+% 	\includegraphics[width=49mm]{../Imagens/PNG_125K}
+% 	\includegraphics[width=49mm]{../Imagens/PNG_120K} \\
+% 	\includegraphics[width=49mm]{../Imagens/PNG_113K}
+% 	\includegraphics[width=49mm]{../Imagens/PNG_110K}
+% 	\includegraphics[width=49mm]{../Imagens/PNG_103K}
+% 	\caption{Termomicroscopia do $\uni{Cs_2 Ag Bi Br_6}$. Mudança de birefringência é observada em temperaturas abaixo de 125 K.}
+% 	\label{termomicroscopia}
+% \end{figure}
 
-\begin{table}[h!] \centering
-	\begin{tabular}{lcl} \hline
-		\multicolumn{3}{l}{$\boldsymbol{\uni{CaCl_2}}$ \quad $T_c =$ 490 K} \\ \hline
-		\multicolumn{3}{l}{Redução da temperatura} \\ \hline
-		Tetragonal & $\rightarrow$ & Ortorrômbica \\ 
-		Paraelastica & $\rightarrow$ & Ferroelastica \\ \hline
-		\multicolumn{3}{l}{Mudança da simetria do fônon} \\ \hline
-		B$_{1g}$ & $\rightarrow$ & A$_{g}$ \\ \hline
-	\end{tabular}
+% \begin{table}[h!] \centering
+% 	\begin{tabular}{lcl} \hline
+% 		\multicolumn{3}{l}{$\boldsymbol{\uni{CaCl_2}}$ \quad $T_c =$ 490 K} \\ \hline
+% 		\multicolumn{3}{l}{Redução da temperatura} \\ \hline
+% 		Tetragonal & $\rightarrow$ & Ortorrômbica \\ 
+% 		Paraelastica & $\rightarrow$ & Ferroelastica \\ \hline
+% 		\multicolumn{3}{l}{Mudança da simetria do fônon} \\ \hline
+% 		B$_{1g}$ & $\rightarrow$ & A$_{g}$ \\ \hline
+% 	\end{tabular}
 
-	\begin{tabular}{lcl} \hline
-		\multicolumn{3}{l}{$\boldsymbol{\uni{BiVO_4}}$ \quad $T_c =$ 528 K} \\ \hline 
-		\multicolumn{3}{l}{Redução da temperatura} \\ \hline
-		Tetragonal & $\rightarrow$ & Monoclínica \\ 
-		Paraelastica & $\rightarrow$ & Ferroelastica \\ \hline
-		\multicolumn{3}{l}{Mudança da simetria do fônon} \\ \hline
-		B$_{g}$ & $\rightarrow$ & A$_{g}$ \\ \hline
-	\end{tabular}
+% 	\begin{tabular}{lcl} \hline
+% 		\multicolumn{3}{l}{$\boldsymbol{\uni{BiVO_4}}$ \quad $T_c =$ 528 K} \\ \hline 
+% 		\multicolumn{3}{l}{Redução da temperatura} \\ \hline
+% 		Tetragonal & $\rightarrow$ & Monoclínica \\ 
+% 		Paraelastica & $\rightarrow$ & Ferroelastica \\ \hline
+% 		\multicolumn{3}{l}{Mudança da simetria do fônon} \\ \hline
+% 		B$_{g}$ & $\rightarrow$ & A$_{g}$ \\ \hline
+% 	\end{tabular}
 
-	\begin{tabular}{lcl} \hline
-		\multicolumn{3}{l}{$\boldsymbol{\uni{LaP_5O_{14}}}$ \quad $T_c =$ 397 K} \\ \hline 
-		\multicolumn{3}{l}{Redução da temperatura} \\ \hline
-		Ortorrômbica & $\rightarrow$ & Monoclínica \\ 
-		Paraelastica & $\rightarrow$ & Ferroelastica \\ \hline
-		\multicolumn{3}{l}{Mudança da simetria do fônon} \\ \hline
-		B$_{2g}$ & $\rightarrow$ & A$_{g}$ \\ \hline
-	\end{tabular}
+% 	\begin{tabular}{lcl} \hline
+% 		\multicolumn{3}{l}{$\boldsymbol{\uni{LaP_5O_{14}}}$ \quad $T_c =$ 397 K} \\ \hline 
+% 		\multicolumn{3}{l}{Redução da temperatura} \\ \hline
+% 		Ortorrômbica & $\rightarrow$ & Monoclínica \\ 
+% 		Paraelastica & $\rightarrow$ & Ferroelastica \\ \hline
+% 		\multicolumn{3}{l}{Mudança da simetria do fônon} \\ \hline
+% 		B$_{2g}$ & $\rightarrow$ & A$_{g}$ \\ \hline
+% 	\end{tabular}
 
-	\begin{tabular}{lcl} \hline
-		\multicolumn{3}{l}{$\boldsymbol{\uni{GeO_2}}$ \quad $P_c =$ 27 GPa} \\ \hline
-		\multicolumn{3}{l}{Aumento da pressão} \\ \hline
-		Tetragonal & $\rightarrow$ & Ortorrômbica \\ 
-		Paraelastica & $\rightarrow$ & Ferroelastica \\ \hline
-		\multicolumn{3}{l}{Mudança da simetria do fônon} \\ \hline
-		B$_{2g}$ & $\rightarrow$ & A$_{g}$ \\ \hline
-	\end{tabular}
-	\caption{Transição de fase ferroelástica. Comparativos das características observadas nas amostras de $\uni{CaCl_2}$, $\uni{BiVO_4}$, $\uni{LaP_5O_{14}}$ e $\uni{GeO_2}$ das referências \cite{unruh1992, pinczuk1977, errandonea1981, haines1998}.}
-	\label{t_ferro}
-\end{table}
+% 	\begin{tabular}{lcl} \hline
+% 		\multicolumn{3}{l}{$\boldsymbol{\uni{GeO_2}}$ \quad $P_c =$ 27 GPa} \\ \hline
+% 		\multicolumn{3}{l}{Aumento da pressão} \\ \hline
+% 		Tetragonal & $\rightarrow$ & Ortorrômbica \\ 
+% 		Paraelastica & $\rightarrow$ & Ferroelastica \\ \hline
+% 		\multicolumn{3}{l}{Mudança da simetria do fônon} \\ \hline
+% 		B$_{2g}$ & $\rightarrow$ & A$_{g}$ \\ \hline
+% 	\end{tabular}
+% 	\caption{Transição de fase ferroelástica. Comparativos das características observadas nas amostras de $\uni{CaCl_2}$, $\uni{BiVO_4}$, $\uni{LaP_5O_{14}}$ e $\uni{GeO_2}$ das referências \cite{unruh1992, pinczuk1977, errandonea1981, haines1998}.}
+% 	\label{t_ferro}
+% \end{table}
 
-\begin{equation}
-	S(\omega) = \frac{\atp{\omega_L - \omega_0}^4 \atc{\displaystyle \frac{1}{\displaystyle \exp{\atp{\frac{h \omega c}{k T}}} - 1} + 1} \; I_0 \; \Gamma \; \omega}{\atp{\omega^2 - \omega_0^2} + \Gamma^2 \; \omega^2}
-\end{equation}
+% \begin{equation}
+% 	S(\omega) = \frac{\atp{\omega_L - \omega_0}^4 \atc{\displaystyle \frac{1}{\displaystyle \exp{\atp{\frac{h \omega c}{k T}}} - 1} + 1} \; I_0 \; \Gamma \; \omega}{\atp{\omega^2 - \omega_0^2} + \Gamma^2 \; \omega^2}
+% \end{equation}
 
-\begin{equation}
-	\omega^2 = \omega_0 + \alpha \atp{T - T_c}
-\end{equation}
+% \begin{equation}
+% 	\omega^2 = \omega_0 + \alpha \atp{T - T_c}
+% \end{equation}
 
-\begin{equation}
-	\omega_s^2 = \omega_p + \alpha_p \atp{T - T_p} \qquad T \geq T_c
-\end{equation}
-\begin{equation}
-	\omega_s^2 = \omega_f + \alpha_f \atp{T - T_f} \qquad T \leq T_c
-\end{equation}
+% \begin{equation}
+% 	\omega_s^2 = \omega_p + \alpha_p \atp{T - T_p} \qquad T \geq T_c
+% \end{equation}
+% \begin{equation}
+% 	\omega_s^2 = \omega_f + \alpha_f \atp{T - T_f} \qquad T \leq T_c
+% \end{equation}
 
-\begin{equation}
-	F = F_0 + \atp{\frac{a}{2}} x_1^2 - d \; x_1 \; Q_1 + \atc{\frac{\alpha_p\atp{T - T_p}}{2}} Q_1^2
-\end{equation}
+% \begin{equation}
+% 	F = F_0 + \atp{\frac{a}{2}} x_1^2 - d \; x_1 \; Q_1 + \atc{\frac{\alpha_p\atp{T - T_p}}{2}} Q_1^2
+% \end{equation}
 
-\begin{equation}
-	T_c = T_p + \frac{d^2}{\alpha_p \; a} %\quad\rightarrow\quad \mbox{ferroelastic transition}
-	\label{condicao}
-\end{equation}
+% \begin{equation}
+% 	T_c = T_p + \frac{d^2}{\alpha_p \; a} %\quad\rightarrow\quad \mbox{ferroelastic transition}
+% 	\label{condicao}
+% \end{equation}
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=8cm]{../Imagens/PNG_Cs2AgBiBr6_w_w2}
-    \caption{Quadrado do modo soft em proporcionalidade com a temperatura}
-    \label{raman_w_w2}
-\end{figure}
+% \begin{figure}[h!]
+%     \centering
+%     \includegraphics[width=8cm]{../Imagens/PNG_Cs2AgBiBr6_w_w2}
+%     \caption{Quadrado do modo soft em proporcionalidade com a temperatura}
+%     \label{raman_w_w2}
+% \end{figure}
 
-\begin{table}[h!] \centering
-	\begin{tabular}{lcl} \hline
-		\multicolumn{3}{l}{$\boldsymbol{\uni{Cs_2 Ag Bi Br_6}}$ \quad $T_c =$ 122 K} \\ \hline
-		\multicolumn{3}{l}{Redução da temperatura} \\ \hline
-		Cubica & $\rightarrow$ & Tetragonal \\ 
-		Paraelástica & $\rightarrow$ & ? \\ \hline
-		\multicolumn{3}{l}{Mudança da simetria do fônon} \\ \hline
-		T$_{2g}$ & $\rightarrow$ & B$_{g} \oplus E_{g}$ \\ \hline
-	\end{tabular}
-	\caption{Mudança de simetria do fônom anômalo da perovskita $\uni{Cs_2 Ag Bi Br_6}$}
-	\label{comp_w_w2}
-\end{table}
+% \begin{table}[h!] \centering
+% 	\begin{tabular}{lcl} \hline
+% 		\multicolumn{3}{l}{$\boldsymbol{\uni{Cs_2 Ag Bi Br_6}}$ \quad $T_c =$ 122 K} \\ \hline
+% 		\multicolumn{3}{l}{Redução da temperatura} \\ \hline
+% 		Cubica & $\rightarrow$ & Tetragonal \\ 
+% 		Paraelástica & $\rightarrow$ & ? \\ \hline
+% 		\multicolumn{3}{l}{Mudança da simetria do fônon} \\ \hline
+% 		T$_{2g}$ & $\rightarrow$ & B$_{g} \oplus E_{g}$ \\ \hline
+% 	\end{tabular}
+% 	\caption{Mudança de simetria do fônom anômalo da perovskita $\uni{Cs_2 Ag Bi Br_6}$}
+% 	\label{comp_w_w2}
+% \end{table}
 
-\begin{equation}
-	\Delta_{S} =
-	\left(
-	\begin{array}{ccc}
-		a & 0 & 0 \\
-		0 & b & 0 \\
-		0 & 0 & b
-	\end{array}
-	\right)
-\label{formaS}
-\end{equation}
+% \begin{equation}
+% 	\Delta_{S} =
+% 	\left(
+% 	\begin{array}{ccc}
+% 		a & 0 & 0 \\
+% 		0 & b & 0 \\
+% 		0 & 0 & b
+% 	\end{array}
+% 	\right)
+% \label{formaS}
+% \end{equation}
 
-\begin{equation}
-	\Delta_{S'} =
-	\left(
-	\begin{array}{ccc}
-		b & 0 & 0 \\
-		0 & a & 0 \\
-		0 & 0 & b
-	\end{array}
-	\right)
-\label{formaSl}
-\end{equation}
+% \begin{equation}
+% 	\Delta_{S'} =
+% 	\left(
+% 	\begin{array}{ccc}
+% 		b & 0 & 0 \\
+% 		0 & a & 0 \\
+% 		0 & 0 & b
+% 	\end{array}
+% 	\right)
+% \label{formaSl}
+% \end{equation}
 
-\begin{equation}
-	\Delta_{S''} =
-	\left(
-	\begin{array}{ccc}
-		a & 0 & 0 \\
-		0 & b & 0 \\
-		0 & 0 & b
-	\end{array}
-	\right)
-\label{formaSll}
-\end{equation}
+% \begin{equation}
+% 	\Delta_{S''} =
+% 	\left(
+% 	\begin{array}{ccc}
+% 		a & 0 & 0 \\
+% 		0 & b & 0 \\
+% 		0 & 0 & b
+% 	\end{array}
+% 	\right)
+% \label{formaSll}
+% \end{equation}

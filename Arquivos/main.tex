@@ -4,12 +4,11 @@
 
 % ALTERE ESSE DOCUMENTO DE ACORDO COM AS INSTRUÇÕES EM CADA LINHA
 
-
 \documentclass[12pt, oneside]{book} % Configura formatação do documento: 'TIPO LIVRO'
 \usepackage{pacotes} % Carrega pacotes essenciais (NÂO MODIFICAR O ARQUIVO 'pacotes.sty')
 \usepackage[Conny]{fncychap} % Configura estilo de formatação do layout: (ver opções) -> Conny, Sonny, Lenny, Glenn, Renje, Bjarne, Bjornstrup etc.
 \input{pageconf} % Carrega configuração das páginas (NÂO MODIFICAR O ARQUIVO 'pageconf.tex')
-\input{comandos} % Carrega comandos criados pelo usuário (OPICIONAL 'comandos.tex')
+% \input{comandos} % Carrega comandos criados pelo usuário (OPICIONAL 'comandos.tex')
 
 
 % CONFIGURAÇÃO DO MANUSCRITO
@@ -19,8 +18,8 @@
 \newcommand{\departamento}{Departamento de Defesa da Terra} %Ex.: Departamento de Física
 \newcommand{\programa}{Programa de Pesquisa e Diplomacia} %Ex.: Programa de Pós-Graduação em Física
 \newcommand{\titulo}{Aplicação da técnica telepática conhecida como Fusão Mental na transferência de energia Katra} %OBS.: Não pode passar de 3 linhas
-\newcommand{\autor}{Sachn Tegai Spock} %Ex. James Tiberius Kirk
-\newcommand{\abrvautor}{S. T. Spock} %Ex.: J. T. Kirk
+\newcommand{\autor}{Sachn Tegai Spock} %(Nome do autor) Ex. James Tiberius Kirk
+\newcommand{\abrvautor}{S. T. Spock} %(Nome abreviado do autor) Ex.: J. T. Kirk 
 \newcommand{\local}{São Francisco | Califórnia} %Ex.: Fortaleza - CE
 \newcommand{\manuscrito}{Tese de Doutorado} %Ex.: Tese de Doutorado
 \newcommand{\graduacao}{Oficial de Ciências} %Ex.: Bacharel, Mestre, Doutor
@@ -71,10 +70,10 @@
 		\listoftables
 	\mainmatter
 		% Carrega os capítulos
-		\input{../Capitulos/introducao}
-		% \input{../Capitulos/experximental}
-		\input{../Capitulos/resultados}
-		\input{../Capitulos/conclusao}
+		% \input{../Capitulos/introducao}
+		\input{../Capitulos/experimental}
+		% \input{../Capitulos/resultados}
+		% \input{../Capitulos/conclusao}
 	\appendix
 		% Carraga os apêndices
 		\input{../Capitulos/apendice_A}
